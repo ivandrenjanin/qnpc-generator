@@ -1,5 +1,8 @@
 # QNPC Generator
 
+## Instalation link:
+https://raw.githubusercontent.com/ivandrenjanin/qnpc-generator/master/module.json
+
 ## User Guide:
 
 Adds a button to `Roll for a new NPC` in `Rollable Tables`.
