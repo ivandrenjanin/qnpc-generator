@@ -18,6 +18,7 @@
   "esmodules": ["src/index.js"],
   "manifest": "https://github.com/ivandrenjanin/qnpc-generator/edit/master/module.json",
   "download": "https://github.com/ivandrenjanin/qnpc-generator/archive/refs/tags/1.0.0.zip",
+  "url": "https://github.com/ivandrenjanin/qnpc-generator",
   "packs": [
     {
       "name": "qnpc-rollable-tables",
