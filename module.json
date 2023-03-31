@@ -13,7 +13,7 @@
     "verified": "10"
   },
   "esmodules": ["src/index.js"],
-  "manifest": "https://raw.githubusercontent.com/ivandrenjanin/qnpc-generator/1.0.0/module.json",
+  "manifest": "https://github.com/ivandrenjanin/qnpc-generator/edit/master/module.json",
   "download": "https://github.com/ivandrenjanin/qnpc-generator/archive/refs/tags/1.0.0.zip",
   "packs": [
     {
