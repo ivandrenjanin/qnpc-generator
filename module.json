@@ -1,0 +1,25 @@
+{
+  "name": "qnpc-generator",
+  "title": "Quick NPC Generator",
+  "description": "A simple module which adds a randomly rolled npc and whispers it to the GM.",
+  "authors": [
+    {
+      "name": "Ivan Drenjanin"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "esmodules": ["src/index.js"],
+
+  "packs": [
+    {
+      "name": "qnpc-rollable-tables",
+      "label": "Quick NPC Rollable Tables",
+      "path": "./packs/qnpc-tables.db",
+      "type": "RollTable"
+    }
+  ]
+}
