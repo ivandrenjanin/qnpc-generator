@@ -61,13 +61,10 @@ const generateNpc = async () => {
       humanSubRaceRoll.total
     );
     humanSubRace = humanSubRaceResult.text;
-    console.log({
-      humanSubRace,
-    });
+
     const nameTable = racialNameTables.get(
       `qnpc ${raceResult.text} ${genderResult.text} ${humanSubRaceResult.text}`
     );
-    console.log({ nameTable });
     const nameRoller = await new Roll(nameTable.formula);
     const nameRoll = await nameRoller.roll({ async: true });
     const [nameResult] = await nameTable.getResultsForRoll(nameRoll.total);
