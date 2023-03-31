@@ -1,4 +1,5 @@
 {
+  "id": "qnpc-generator",
   "name": "qnpc-generator",
   "title": "Quick NPC Generator",
   "description": "A simple module which adds a randomly rolled npc and whispers it to the GM.",
@@ -7,6 +8,8 @@
       "name": "Ivan Drenjanin"
     }
   ],
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "10",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
