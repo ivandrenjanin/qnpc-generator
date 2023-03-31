@@ -13,7 +13,7 @@
     "verified": "10"
   },
   "esmodules": ["src/index.js"],
-
+  "manifest": "https://raw.githubusercontent.com/ivandrenjanin/qnpc-generator/master/module.json",
   "packs": [
     {
       "name": "qnpc-rollable-tables",
